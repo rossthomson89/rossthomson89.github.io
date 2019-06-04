@@ -15,11 +15,20 @@ $(function() {
                 $(tag).removeClass("visible");
             }
         }
+
+        if (pageTop >= 636 ) {
+            $(".header").addClass("header_fixed");
+            $("#about").addClass("body_fix");
+        }
+
+
+        console.log(pageTop);
+
     });
 
     //Smooth page scroll for nav links
     $('a[href*="#"]').on('click', function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         $('html, body').animate(
             {
                 scrollTop: $($(this).attr('href')).offset().top,
