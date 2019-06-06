@@ -43,65 +43,50 @@
     <meta name="theme-color" content="#2b5797">
 
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,800&display=swap" rel="stylesheet">
     <script src="/js/min/jquery-3.4.1.min.js"></script>
     <script src="/js/script.js"></script>
 </head>
-<body class="container">
-
-    <!--<header class="header">-->
-        <!--<div class="top_nav_container">-->
-            <!--<div class="logo"></div>-->
-            <!--<div class="social_header_container">-->
-                <!--<a href="https://www.linkedin.com/in/rossthomson89/" target="_blank" class="social_header_linkedin"></a>-->
-                <!--<a href="https://github.com/rossthomson89" target="_blank" class="social_header_github"></a>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="header_content_container">-->
-            <!--&lt;!&ndash;<h1>Ross Thomson</h1>&ndash;&gt;-->
-            <!--&lt;!&ndash;<div class="job_title">Web & Application Developer</div>&ndash;&gt;-->
-
-            <!--&lt;!&ndash; The buzz of starting a new project. There's nothing like starting with a blank canvas and then seeing a clients idea come to fruition as the site develops. I would like to spend the bulk of my time making sure aesthetics of a site meets the clients expectations and unlike most web developers tweaking CSS to make sure something is as good as pixel perfect is almost therapeutic to me.&ndash;&gt;-->
-
-            <!--&lt;!&ndash;<div class="intro"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<p></div>&ndash;&gt;-->
-        <!--</div>-->
-        <!--<nav>-->
-            <!--<a href="#about" class="navigation_link">About</a>-->
-            <!--<a href="#portfolio" class="navigation_link">Portfolio</a>-->
-            <!--<a href="#contact" class="navigation_link">Contact</a>-->
-        <!--</nav>-->
-    <!--</header>-->
-
+<body>
     <header>
-        <a href="/">
-            <div class="logo"></div>
-            <h1>Ross Thomson</h1>
-        </a>
-        <nav>
-            <a href="/about" class="navigation_link">About</a>
-            <a href="/work" class="navigation_link">Work</a>
-            <a href="/contact" class="navigation_link">Contact</a>
-        </nav>
+        <div class="nav_container">
+            <a href="/">
+                <div class="logo"></div>
+                <h1>Ross Thomson</h1>
+            </a>
+            <nav>
+                <a href="/about" class="navigation_link">About</a>
+                <a href="/work" class="navigation_link">Work</a>
+                <a href="/contact" class="navigation_link">Contact</a>
+            </nav>
+        </div>
     </header>
 
-
     <main>
-        <h1>Hiya, I'm Ross!</h1>
-        <p>I'm a Web Developer from Aberdeen specialising in all things Frontend. I like to play with CSS until things are as good as pixel perfect and enjoy it to the point where I find it almost therapeutic (weird right?).</p>
-        <p>I used to build cross-platform mobile apps and transitioned over to Full Stack Web Development during my career.</p>
+        <div class="container intro">
+            <div class="copy w-70">
+                <h1>Hi, I'm Ross!</h1>
+                <p>I'm a Web Developer from Aberdeen specialising in all things Frontend. I like to play with CSS until things are as good as pixel perfect and enjoy it to the point where I find it almost therapeutic (weird right?).</p>
+                <p>I used to build cross-platform mobile apps and transitioned over to Full Stack Web Development during my career. Currently, I spend most of my time building fully customised CMS's, online stores, landing pages as well as some other cool shit.</p>
+                <p>Currently working for the amazing team at <a href="https://fortytwo.studio/" target="_blank">FortyTwo Studio</a>. When I'm not working I listen to music. Like ALOT. Check out my weekly updated <a href="https://open.spotify.com/user/ross_182/playlist/5kNNTTP9FJ9de376BOnkr5?si=5Oco2FYnQVOi_Oi09liCMg">Spotify Playlist</a> of stuff I'm listening to. Feel free to grab a copy of my CV below.</p>
+                <a href="" download>Ross' CV</a>
+            </div>
+            <img src="/imgs/rossthomson.jpg" alt="here's mi" class="photo">
+        </div>
+
+        <div class="container">
+            <div class="blog copy">
+                <h2>Latest from the Blog</h2>
+                <p>Nae content. I'll add some thoughts, tutorials and neat snippets here once I pull some stuff together. Watch this space.</p>
+                <a href="/blog/example" class="blog_card"><img src="/imgs/logos/github-icon.svg" alt=""><h5>Example Blog Title Number 1</h5></a>
+                <a href="/blog/example" class="blog_card"><img src="/imgs/logos/github-icon.svg" alt=""><h5>Example Blog Title Number 2</h5></a>
+                <a href="/blog/example" class="blog_card"><img src="/imgs/logos/github-icon.svg" alt=""><h5>Example Blog Title Number 3</h5></a>
+            </div>
+        </div>
     </main>
 
-    <section class="section_container" id="about">
-        <h1>This section should fade in/out on scroll</h1>
-    </section>
-    <section class="section_container" id="portfolio">
-        <h1>This section should fade in/out on scroll</h1>
-    </section>
-    <section class="section_container" id="contact">
-        <h1>This section should fade in/out on scroll</h1>
-    </section>
-
     <footer>
+        <div class="info">This site was built by me and hosted on <a href="https://pages.github.com/" class="git_hub_pages"><img src="/imgs/logos/github-icon.svg" alt="GitHub"></a></div>
         <a href="https://www.linkedin.com/in/rossthomson89/" target="_blank" class="linkedin"></a>
         <a href="mailto:rossthomson89@googlemail.com" target="_blank" class="email"></a>
     </footer>
