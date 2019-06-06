@@ -15,14 +15,14 @@ $(function() {
                 $(tag).removeClass("visible");
             }
         }
+        //
+        // if (pageTop >= 636 ) {
+        //     $(".header").addClass("header_fixed");
+        //     $("#about").addClass("body_fix");
+        // }
 
-        if (pageTop >= 636 ) {
-            $(".header").addClass("header_fixed");
-            $("#about").addClass("body_fix");
-        }
 
-
-        console.log(pageTop);
+        //console.log(pageTop);
 
     });
 
