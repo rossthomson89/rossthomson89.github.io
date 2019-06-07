@@ -140,6 +140,11 @@ nav {
     opacity: 1;
 }
 
+.navigation_link.active {
+    text-decoration: underline;
+    opacity: 1;
+}
+
 .copy {
     margin-bottom: 4rem;
 }
