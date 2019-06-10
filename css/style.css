@@ -76,6 +76,11 @@ header a {
     width: 50%;
 }
 
+.border-b {
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
 .social_header_container {
     position: absolute;
     top: 20px;
@@ -159,6 +164,11 @@ nav {
     font-weight: 600;
 }
 
+.copy h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 .copy p {
     font-size: 1rem;
     margin: 0 0 2rem;
@@ -203,6 +213,36 @@ nav {
     display: inline-block;
 }
 
+ul strong {
+    font-weight: 600;
+}
+
+.icon_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon_list img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.icon_list div {
+    display: inline-block;
+}
+
+.icon_list li {
+    margin-bottom: 40px;
+}
+
+.icon_list li strong {
+    padding-bottom: 5px;
+    display: block;
+}
 
 footer {
     text-align: center;
