@@ -45,9 +45,11 @@ header a {
 
 .nav_container {
     max-width: 855px;
-    padding: 0 2rem;
+    padding: 20px 2rem 0;
     margin-left: auto;
     margin-right: auto;
+    background: #ffffff;
+    transition: padding-top 0.5s;
 }
 
 .intro {
@@ -150,6 +152,17 @@ nav {
     opacity: 1;
 }
 
+.fixed_nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    padding-top: 5px;
+    transition: padding-top 0.5s;
+}
+
 .copy {
     margin-bottom: 4rem;
 }
@@ -178,7 +191,6 @@ nav {
 .copy p:last-of-type {
     margin: 0 0 20px;
 }
-
 
 .blog_card {
     display: flex;
@@ -242,6 +254,51 @@ ul strong {
 .icon_list li strong {
     padding-bottom: 5px;
     display: block;
+}
+
+
+.margin_fix {
+    margin-top: 85px;
+}
+
+form {
+    width: 42%;
+    min-width: 300px;
+}
+
+[type=color], [type=date], [type=email], [type=number], [type=search], [type=text], [type=url], select, textarea {
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: .75rem;
+    outline: none;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 100%;
+    line-height: 1;
+}
+
+textarea {
+    height: 120px;
+}
+
+[type=submit] {
+    -webkit-appearance: none;
+    display: inline-block;
+    border: 2px solid #5183f5;
+    border-radius: 4px;
+    background: #5183f5;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: none;
+    padding: .6rem .9rem;
+    margin: 0 0 .5rem;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
 }
 
 footer {

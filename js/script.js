@@ -35,5 +35,16 @@ $(function() {
             },500,'swing');
     });
 
+    $(window).scroll(function(){
+        if ($(window).scrollTop() >= 20) {
+            $('.nav_container').addClass('fixed_nav');
+            $('main').addClass('margin_fix');
+        }
+        else {
+            $('.nav_container').removeClass('fixed_nav');
+            $('main').removeClass('margin_fix');
+        }
+    });
+
 
 });
