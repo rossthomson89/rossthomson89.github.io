@@ -192,6 +192,10 @@ nav {
     margin: 0 0 20px;
 }
 
+.copy strong {
+   font-weight: 600;
+}
+
 .blog_card {
     display: flex;
     align-items: center;
@@ -257,9 +261,14 @@ ul strong {
 }
 
 
+.margin-b {
+    margin-bottom: 30px;
+}
+
 .margin_fix {
     margin-top: 85px;
 }
+
 
 form {
     width: 42%;
@@ -271,7 +280,6 @@ form {
     border: 2px solid #ccc;
     border-radius: 4px;
     padding: .75rem;
-    outline: none;
     margin-bottom: .5rem;
     font-size: 1.1rem;
     width: 100%;
@@ -299,6 +307,11 @@ textarea {
     cursor: pointer;
     text-decoration: none;
     line-height: 1;
+}
+
+[type=submit]:hover {
+    background: #0e51db;
+    border: 2px solid #0e51db;
 }
 
 footer {
