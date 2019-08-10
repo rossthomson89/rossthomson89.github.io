@@ -474,8 +474,18 @@ section.visible {
     transition: height,opacity 0.2s;
     background: #f5f5f5;
     z-index: 2;
+    pointer-events: auto;
 }
 
+.burger_fix {
+    top: 16px !important;
+    transition: top 0.5s;
+}
+
+.mobile_nav_fix {
+    top: 53px;
+    transition: top 0.5s;
+}
 
 @media screen and (max-width: 980px) {
     .copy.w-70 {
@@ -497,8 +507,9 @@ section.visible {
         background: #ffffff;
         height: 0px;
         opacity: 0;
-        transition: height,opacity 0.2s;
+        transition: height,opacity,top 0.2s;
         padding: 20px;
+        pointer-events: none;
     }
 
     .navigation_link {
