@@ -61,9 +61,11 @@ header a {
     right: 30px;
     top: 60px;
     width: 220px;
+    height: 220px;
+    border-radius: 50%;
     object-fit: contain;
-    opacity: 0.8;
-    display: none;
+    /*opacity: 0.8;*/
+    /*display: none;*/
 }
 
 .w-75 {
@@ -129,7 +131,7 @@ header a {
 
 nav {
     display: inline-block;
-    width: 75%;
+    width: 78%;
     text-align: right;
 }
 
@@ -150,6 +152,10 @@ nav {
 .navigation_link.active {
     text-decoration: underline;
     opacity: 1;
+}
+
+.navigation_link:last-child {
+    padding-right: 0;
 }
 
 .fixed_nav {
