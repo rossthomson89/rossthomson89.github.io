@@ -578,11 +578,31 @@ section.visible {
 }
 
 @media screen and (max-width: 580px) {
+
     .container {
         padding: 0 1.5rem;
     }
 
     .nav_container {
         padding: 5px 1.5rem;
+    }
+
+    .blog_card {
+        position: relative;
+        display: block;
+    }
+
+    .info_list {
+        padding-left: 25px;
+    }
+
+    .work_card img {
+        position: absolute;
+        right: 10px;
+        bottom: 30px;
+    }
+
+    .work_card h5 {
+        margin: 0 0 15px;
     }
 }
