@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="intro flex">
+    <div class="copy w-70">
+        <h2 class="font-lg">{{ page.subtitle }}</h2>
+        <div>{{ content }}</div>
+    </div>
+    <div class="photo w-30">
+        <img src="{{ page.photoUrl }}" alt="{{ page.photoAlt }}">
+    </div>
+</div>
+
+<div class="blog copy">
+    <h2>{{ page.blogTitle }}</h2>
+    <p>{{ page.blogIntro }}</p>
+    {% for post in site.posts %}
+        {% if post.categories contains "blog" %}
+        <a href="{{ post.url }}" class="blog_card">
+            <img src="{{ post.iconUrl }}" alt="{{ post.title }}">
+            <h5>{{ post.title }} - {{ post.date | date_to_string }}</h5>
+            <div class="read-more">Read More</div>
+        </a>
+        {% endif %}
+
+        {% if post.categories contains "website" %}
+            <a href="{{ post.websiteUrl }}" class="blog_card work_card" target="_blank">
+                <div>
+                    <img src="{{ post.iconUrl }}" alt="{{ post.title }}">
+                    <h5>{{ post.title }}</h5><span class="click-to-view">(click to view)</span>
+                </div>
+                <div>
+                    <div class="info_list">
+                        {{ post.content }}
+                    </div>
+                </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>

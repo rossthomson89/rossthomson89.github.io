@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="blog copy">
+    <h2>Latest Work</h2>
+
+    {% for post in site.posts %}
+        {% if post.categories contains "website" %}
+            <a href="{{ post.websiteUrl }}" class="blog_card work_card" target="_blank">
+                <div>
+                    <img src="{{ post.iconUrl }}" alt="{{ post.title }}">
+                    <h5>{{ post.title }}</h5><span class="click-to-view">(click to view)</span>
+                </div>
+                <div>
+                    <div class="info_list">
+                        {{ post.content }}
+                    </div>
+                </div>
+            </a>
+        {% endif %}
+    {% endfor %}
+
+</div>

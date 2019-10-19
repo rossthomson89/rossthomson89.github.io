@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Optimus Aberdeen"
+date:   2019-10-17 15:45:20 +0100
+categories: website
+iconUrl: /assets/imgs/icons/optimus-icon.png 
+websiteUrl: https://optimusaberdeen.com
+---
+
+Custom Craft CMS<br>
+Front End<br>
+Responsive

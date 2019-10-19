@@ -1,0 +1,29 @@
+<header>
+    <div class="nav_container">
+        <a href="/">
+            <div class="logo"></div>
+            <h1>Ross Thomson</h1>
+        </a>
+        <div class="mobile_nav">
+            <input id="burger" type="checkbox"/>
+
+            <label for="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            {% assign current = page.url | downcase | split: '/' %}
+            <nav>
+                <a href="/about" class="navigation_link {% if current[1] == 'about' %}active{% endif %}">About</a>
+                <a href="/work" class="navigation_link {% if current[1] == 'work' %}active{% endif %}">Work</a>
+                <a href="/contact" class="navigation_link {% if current[1] == 'contact' %}active{% endif %}">Contact</a>
+            </nav>
+        </div>
+        <nav>
+            <a href="/about" class="navigation_link {% if current[1] == 'about' %}active{% endif %}">About</a>
+            <a href="/work" class="navigation_link {% if current[1] == 'work' %}active{% endif %}">Work</a>
+            <a href="/contact" class="navigation_link {% if current[1] == 'contact' %}active{% endif %}">Contact</a>
+        </nav>
+    </div>
+</header>
