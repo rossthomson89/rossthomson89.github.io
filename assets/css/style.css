@@ -24,6 +24,15 @@ header a {
     color: #000000;
 }
 
+.copy a {
+    color: #81a5f8;
+}
+
+.copy a:hover {
+    color: #2161f2;
+    border-bottom: 2px solid #2161f2;
+}
+
 .logo {
     width: 40px;
     height: 40px;
@@ -202,6 +211,10 @@ nav {
     margin-bottom: 2rem;
 }
 
+.blog .copy {
+    margin-bottom: 2rem;
+}
+
 .blog_card {
     display: flex;
     align-items: center;
@@ -345,15 +358,6 @@ footer .info {
     margin-bottom: 5px;
 }
 
-.git_hub_pages img {
-    width: 18px;
-    height: 18px;
-    opacity: 0.3;
-    vertical-align: middle;
-    margin-left: 2px;
-    position: relative;
-    top: -1px;
-}
 
 .linkedin {
     background: url('../imgs/logos/linkedin.svg');
@@ -383,6 +387,24 @@ footer .info {
 }
 
 .email:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.github_icon {
+    background: url('/assets/imgs/logos/github-icon.svg');
+    background-size: cover;
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    opacity: 0.3;
+    vertical-align: middle;
+    margin-left: 1px;
+    position: relative;
+    top: -2px;
+}
+
+.github_icon:hover {
     opacity: 1;
     transition: opacity 0.5s;
 }
@@ -520,6 +542,7 @@ article date {
     font-size: 0.7rem;
     margin-left: auto;
     text-decoration: underline;
+    color: #81a5f8;
 }
 
 .click-to-view {
@@ -527,6 +550,7 @@ article date {
     margin-left: 5px;
     text-decoration: underline;
     vertical-align: middle;
+    color: #81a5f8;
 }
 
 @media screen and (max-width: 767px) {
@@ -656,12 +680,12 @@ article date {
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
+        background-color: #202020;
         color: #fff;
     }
 
     .nav_container {
-        background-color: black;
+        background-color: #202020;
         color: #fff;
     }
 
@@ -670,7 +694,7 @@ article date {
     }
 
     .blog_card {
-        box-shadow: 1px 2px 10px rgba(255,255,255, .4);
+        box-shadow: 0px 2px 15px rgba(255,255,255, 0.2);
         color: #fff;
     }
 
@@ -690,6 +714,7 @@ article date {
 
     [type=color], [type=date], [type=email], [type=number], [type=search], [type=text], [type=url], select, textarea {
         background: #505050;
+        color: #fff;
     }
 
     .linkedin {
@@ -699,6 +724,11 @@ article date {
 
     .email {
         background: url('/assets/imgs/logos/mail-white.svg');
+        background-size: cover;
+    }
+
+    .git_hub_pages .github_icon {
+        background: url('/assets/imgs/logos/github-icon-white.svg');
         background-size: cover;
     }
 }
