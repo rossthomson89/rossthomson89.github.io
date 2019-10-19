@@ -553,6 +553,10 @@ article date {
     color: #81a5f8;
 }
 
+.align-c {
+    text-align: center;
+}
+
 @media screen and (max-width: 767px) {
     .copy.w-70, .photo.w-30{
         width: 100%;
