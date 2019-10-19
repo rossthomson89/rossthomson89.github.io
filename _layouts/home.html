@@ -16,11 +16,11 @@ layout: default
     <p>{{ page.blogIntro }}</p>
     {% for post in site.posts %}
         {% if post.categories contains "blog" %}
-        <a href="{{ post.url }}" class="blog_card">
-            <img src="{{ post.iconUrl }}" alt="{{ post.title }}">
-            <h5>{{ post.title }} - {{ post.date | date_to_string }}</h5>
-            <div class="read-more">Read More</div>
-        </a>
+            <a href="{{ post.url }}" class="blog_card">
+                <img src="{{ post.iconUrl }}" alt="{{ post.title }}">
+                <h5>{{ post.title }} - {{ post.date | date_to_string }}</h5>
+                <div class="read-more">Read More</div>
+            </a>
         {% endif %}
 
         {% if post.categories contains "website" %}

@@ -121,26 +121,8 @@ header a {
     }
 }
 
-.social_header_github {
-    background: url('../imgs/logos/github-icon-white.svg');
-    width: 27px;
-    height: 26px;
-    background-size: cover;
-    display: inline-block;
-    margin: 10px 5px;
-    opacity: 1;
-    transition: opacity 0.5s;
-}
-
-.social_header_linkedin {
-    background: url('../imgs/logos/linkedin-white.svg');
-    width: 26px;
-    height: 26px;
-    background-size: cover;
-    display: inline-block;
-    margin: 10px 5px;
-    opacity: 1;
-    transition: opacity 0.5s;
+.hide {
+    display: none;
 }
 
 nav {
