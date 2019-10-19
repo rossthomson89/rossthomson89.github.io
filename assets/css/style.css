@@ -731,4 +731,8 @@ article date {
         background: url('/assets/imgs/logos/github-icon-white.svg');
         background-size: cover;
     }
+
+    .mobile_nav input + label span {
+        background: #fff;
+    }
 }
