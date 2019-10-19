@@ -26,4 +26,4 @@ Don't get me wrong, this isn't a solution I'd recommend to most of my clients (o
 
 I'll put together a multi-part tutorial on how I implemented this site in the near future for any aspiring web developers who want a flat file site on the cheap - so watch this space. 
 
-Feel free to have a look around to find out a little bit more <a href="https://rossthomson.dev/about/">about me</a> and take a look at some of my <a href="https://rossthomson.dev/work/">latest projects</a>.
+Feel free to have a look around to find out a little bit more <a href="https://rossthomson.dev/about">about me</a> and take a look at some of my <a href="https://rossthomson.dev/work">latest projects</a>.
