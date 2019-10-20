@@ -504,7 +504,7 @@ section.visible {
     height: 126px;
     opacity: 1;
     transition: height,opacity 0.2s;
-    background: #a5a5a5;
+    background: #8a8a8a;
     z-index: 2;
     pointer-events: auto;
 }
@@ -558,7 +558,7 @@ article date {
 }
 
 @media screen and (max-width: 767px) {
-    .copy.w-70, .photo.w-30{
+    .copy.w-70, .photo.w-30, .w-80 {
         width: 100%;
     }
 
@@ -738,5 +738,9 @@ article date {
 
     .mobile_nav input + label span {
         background: #fff;
+    }
+
+    .mobile_nav input:checked ~ nav {
+        background: #424242;
     }
 }
