@@ -248,6 +248,10 @@ nav {
     display: inline-block;
 }
 
+.blog_date {
+    font-size: 12px;
+}
+
 .work_card {
     justify-content: space-between;
 }
