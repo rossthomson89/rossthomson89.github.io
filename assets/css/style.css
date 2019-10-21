@@ -712,8 +712,9 @@ article date {
     }
 
     .blog_card img {
-        background: white;
         height: 50px;
+        width: 50px;
+        object-fit: contain;
     }
 
     .icon_list img {
@@ -746,5 +747,13 @@ article date {
 
     .mobile_nav input:checked ~ nav {
         background: #424242;
+    }
+
+    .brownandbrown_icon {
+        content:url('/assets/imgs/icons/brownandbrown-icon-white.svg');
+    }
+
+    .optimus_icon {
+        content:url('/assets/imgs/icons/optimus-icon-white.svg');
     }
 }

@@ -8,7 +8,7 @@ layout: default
         {% if post.categories contains "website" %}
             <a href="{{ post.websiteUrl }}" class="blog_card work_card" target="_blank">
                 <div>
-                    <img src="{{ post.iconUrl }}" alt="{{ post.title }}">
+                    <img src="{{ post.iconUrl }}" alt="{{ post.title }}" {% if post.customClass %}class="{{ post.customClass }}"{% endif %}>
                     <h5>{{ post.title }}</h5><span class="click-to-view">(click to view)</span>
                 </div>
                 <div>

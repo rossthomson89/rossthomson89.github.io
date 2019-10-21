@@ -3,8 +3,9 @@ layout: post
 title:  "Optimus Aberdeen"
 date:   2019-10-17 15:45:20 +0100
 categories: website
-iconUrl: /assets/imgs/icons/optimus-icon.png 
+iconUrl: /assets/imgs/icons/optimus-icon.svg 
 websiteUrl: https://optimusaberdeen.com
+customClass: optimus_icon
 ---
 
 Custom Craft CMS<br>

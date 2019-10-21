@@ -3,7 +3,7 @@ layout: post
 title:  Teasmith Gin
 date:   2019-10-16 17:45:20 +0100
 categories: website
-iconUrl: /assets/imgs/icons/teasmith-icon.png 
+iconUrl: /assets/imgs/icons/teasmith-icon.svg 
 websiteUrl: https://teasmithgin.com/
 ---
 
