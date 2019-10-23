@@ -9,32 +9,27 @@
 
 <url>
   <loc>https://rossthomson.dev/</loc>
-  <lastmod>2019-10-19T14:52:32+00:00</lastmod>
+  <lastmod>2019-10-22T19:08:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rossthomson.dev/about</loc>
-  <lastmod>2019-10-19T14:52:32+00:00</lastmod>
+  <lastmod>2019-10-22T19:08:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rossthomson.dev/work</loc>
-  <lastmod>2019-10-19T14:52:32+00:00</lastmod>
+  <lastmod>2019-10-22T19:08:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rossthomson.dev/contact</loc>
-  <lastmod>2019-10-19T14:52:32+00:00</lastmod>
+  <lastmod>2019-10-22T19:08:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://rossthomson.dev/blog/2019/10/18/website-launched.html</loc>
-  <lastmod>2019-10-19T14:52:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rossthomson.dev/blog/2019/10/17/welcome-to-jekyll.html</loc>
-  <lastmod>2019-10-19T14:52:32+00:00</lastmod>
+  <loc>https://rossthomson.dev/blog/2019/10/18/website-launched</loc>
+  <lastmod>2019-10-22T19:08:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
