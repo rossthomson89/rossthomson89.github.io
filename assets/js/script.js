@@ -15,15 +15,6 @@ $(function() {
                 $(tag).removeClass("visible");
             }
         }
-        //
-        // if (pageTop >= 636 ) {
-        //     $(".header").addClass("header_fixed");
-        //     $("#about").addClass("body_fix");
-        // }
-
-
-        //console.log(pageTop);
-
     });
 
     //Smooth page scroll for nav links
@@ -50,5 +41,26 @@ $(function() {
         }
     });
 
+    if (localStorage.toggled == undefined) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            console.log('dark mode');
+            $('body').addClass('dark');
+            localStorage.toggled = "dark";
+        }
+    }
+
+    if (localStorage.toggled == 'dark') {
+        $('body').addClass('dark');
+    }
+
+    $('.mode_button').on('click', function(e) {
+        if (localStorage.toggled != 'dark') {
+            $('body').toggleClass('dark', true);
+            localStorage.toggled = "dark";
+        } else {
+            $('body').toggleClass('dark', false);
+            localStorage.toggled = "";
+        }
+    });
 
 });

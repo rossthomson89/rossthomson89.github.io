@@ -1,0 +1,152 @@
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.light .nav_container {
+    background: #fff;
+    color: #000;
+}
+
+.light header a {
+    color: #000;
+}
+
+.light .blog_card {
+    box-shadow: 1px 2px 10px rgba(0,0,0,.1);
+    color: #000;
+}
+
+.light .blog_card:hover {
+    color: #111;
+    background: #fff;
+    box-shadow: 3px 5px 20px rgba(0,0,0,.16);
+}
+
+.light .blog_card img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.light .icon_list img {
+    background: none;
+}
+
+.light [type=color], .light [type=date], .light [type=email], .light [type=number], .light [type=search], .light [type=text], .light [type=url], .light select, .light textarea {
+    background: #505050;
+    color: #fff;
+}
+
+.light .linkedin {
+    background: url('/assets/imgs/logos/linkedin.svg');
+    background-size: cover;
+}
+
+.light .email {
+    background: url('/assets/imgs/logos/mail.svg');
+    background-size: cover;
+}
+
+.light .git_hub_pages .github_icon {
+    background: url('/assets/imgs/logos/github-icon.svg');
+    background-size: cover;
+}
+
+.light .mobile_nav input + label span {
+    background: none;
+}
+
+.light .mobile_nav input:checked ~ nav {
+    background: #424242;
+}
+
+.light .brownandbrown_icon {
+    content:url('/assets/imgs/icons/brownandbrown-icon.svg');
+}
+
+.light .optimus_icon {
+    content:url('/assets/imgs/icons/optimus-icon.svg');
+}
+
+.light .mode_button {
+    background: url("/assets/imgs/icons/dark.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.dark {
+    background-color: #202020;
+    color: #fff;
+}
+
+.dark .nav_container {
+    background-color: #202020;
+    color: #fff;
+}
+
+.dark header a {
+    color: #fff;
+}
+
+.dark .blog_card {
+    box-shadow: 0px 2px 15px rgba(255,255,255, 0.2);
+    color: #fff;
+}
+
+.dark .blog_card:hover {
+    background: #505050;
+    color: #fff;
+}
+
+.dark .blog_card img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.dark .icon_list img {
+    background: #fff;
+}
+
+.dark [type=color], .dark [type=date], .dark [type=email], .dark [type=number], .dark [type=search], .dark [type=text], .dark [type=url], .dark select, .dark textarea {
+    background: #505050;
+    color: #fff;
+}
+
+.dark .linkedin {
+    background: url('/assets/imgs/logos/linkedin-white.svg');
+    background-size: cover;
+}
+
+.dark .email {
+    background: url('/assets/imgs/logos/mail-white.svg');
+    background-size: cover;
+}
+
+.dark .git_hub_pages .github_icon {
+    background: url('/assets/imgs/logos/github-icon-white.svg');
+    background-size: cover;
+}
+
+.dark .mobile_nav input + label span {
+    background: #fff;
+}
+
+.dark .mobile_nav input:checked ~ nav {
+    background: #424242;
+}
+
+.dark .brownandbrown_icon {
+    content:url('/assets/imgs/icons/brownandbrown-icon-white.svg');
+}
+
+.dark .optimus_icon {
+    content:url('/assets/imgs/icons/optimus-icon-white.svg');
+}
+
+.dark .mode_button {
+    background: url("/assets/imgs/icons/light-test.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
