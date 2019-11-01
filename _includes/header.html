@@ -23,6 +23,9 @@
             <a href="/work" class="navigation_link {% if current[1] == 'work' %}active{% endif %}">Work</a>
             <a href="/contact" class="navigation_link {% if current[1] == 'contact' %}active{% endif %}">Contact</a>
         </nav>
-        <div class="mode_button"></div>
+        <label class="switch">
+            <input type="checkbox" id="dark_mode" class="mode_button">
+            <span class="slider"></span>
+        </label>
     </div>
 </header>
