@@ -644,6 +644,7 @@ input:checked + .slider:before {
     .margin_fix {
         margin: 0;
     }
+
     .nav_container {
         position: fixed;
         left: 0;
@@ -654,6 +655,7 @@ input:checked + .slider:before {
         padding-bottom: 5px;
         transition: padding-top 0.5s;
         margin: 0;
+        width: 100%;
     }
 
     .mobile_nav input + label {
@@ -681,6 +683,12 @@ input:checked + .slider:before {
 
     .intro.flex {
         display: block;
+    }
+
+    .switch {
+        position: fixed;
+        right: 53px;
+        top: 7px;
     }
 }
 
@@ -725,5 +733,11 @@ input:checked + .slider:before {
 
     .work_card h5 {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .logo {
+        margin-right: 2px;
     }
 }
