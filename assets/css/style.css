@@ -598,6 +598,24 @@ article date {
     border-radius: 50%;
 }
 
+pre {
+    width: 100%;
+    background: #2d2d2d;
+    color: #fff;
+    overflow-x: scroll;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+ol {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
 input:checked + .slider {
     background-color: #81a5f8;
 }
