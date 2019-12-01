@@ -15,7 +15,7 @@ $(function() {
                 $(tag).removeClass("visible");
             }
         }
-    });
+    }); 
 
     //Smooth page scroll for nav links
     $('a[href*="#"]').on('click', function(e) {
