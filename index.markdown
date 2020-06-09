@@ -2,7 +2,7 @@
 layout: home
 title: Ross Thomson | Digital Portfolio
 permalink: /
-description: I'm a Full Stack Web Developer from Aberdeen specialising in all things front end. I build websites for a living and have worked in the creative industry for over 8+ years.
+description: I'm a Full Stack Web Developer from Aberdeen specialising in all things front end. I build websites for a living and have worked in the creative industry for over 8 years.
 subtitle: Hi, I'm Ross!
 photoUrl: /assets/imgs/rossthomson-cropped.jpg
 photoAlt: Here's mi 
