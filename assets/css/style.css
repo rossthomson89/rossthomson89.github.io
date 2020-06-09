@@ -48,6 +48,14 @@ header a {
   margin-right: auto;
 }
 
+.red {
+  color: red;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
 .nav_container {
   max-width: 855px;
   padding: 20px 2rem 0;
@@ -64,6 +72,7 @@ header a {
 .photo {
   text-align: right;
 }
+
 .photo img {
   width: 220px;
   height: 220px;
@@ -510,6 +519,10 @@ article date {
   opacity: 0.5;
   margin-bottom: 30px;
   display: block;
+}
+
+article img {
+  width: 100%;
 }
 
 .read-more {

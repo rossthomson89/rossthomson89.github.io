@@ -7,7 +7,7 @@ subtitle: Hi, I'm Ross!
 photoUrl: /assets/imgs/rossthomson-cropped.jpg
 photoAlt: Here's mi 
 blogTitle: Latest from the blog.
-blogIntro: Welcome to the blog feed! I'll add any latest thoughts, opinions, tutorials and any new projects I've been working on here. All view and opinions are my own. 
+blogIntro: Welcome to the blog feed! I'll add any latest thoughts, opinions, tutorials and any new projects I've been working on here. All views and opinions are my own. 
 ---
 
 I'm a Full Stack Web Developer from Aberdeen specialising in all things front end. I build websites for a living and have worked in the creative industry for over 8 years.
