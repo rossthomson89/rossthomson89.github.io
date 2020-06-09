@@ -390,6 +390,7 @@ footer .info {
   margin-left: 1px;
   position: relative;
   top: -2px;
+  text-indent: -9999px;
 }
 .github_icon:hover {
   opacity: 1;
@@ -538,6 +539,7 @@ article date {
   float: right;
   margin-top: 8px;
   margin-right: 15px;
+  text-indent: -9999px;
 }
 .switch input {
   opacity: 0;
