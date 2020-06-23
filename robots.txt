@@ -1,4 +1,4 @@
 # Allow crawling of all content
-Sitemap: https://rossthomson.dev/sitemap.xml
+Sitemap: https://rossthomson.com/sitemap.xml
 User-agent: *
 Disallow:
