@@ -3,37 +3,44 @@
    created with Free Online Sitemap Generator www.xml-sitemaps.com
   -->
   <url>
-    <loc>https://rossthomson.dev/</loc>
+    <loc>https://rossthomson.com/</loc>
     <lastmod>2019-12-01T15:40:16+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://rossthomson.dev/about</loc>
+    <loc>https://rossthomson.com/about</loc>
     <lastmod>2019-12-01T15:40:16+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://rossthomson.dev/work</loc>
+    <loc>https://rossthomson.com/work</loc>
     <lastmod>2019-12-01T15:40:16+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://rossthomson.dev/contact</loc>
+    <loc>https://rossthomson.com/contact</loc>
     <lastmod>2019-12-01T15:40:16+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>
-      https://rossthomson.dev/blog/2019/11/27/the-futures-dark
+      https://rossthomson.com/blog/2019/11/27/the-futures-dark
     </loc>
     <lastmod>2019-12-01T15:40:16+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>
-      https://rossthomson.dev/blog/2019/10/18/website-launched
+      https://rossthomson.com/blog/2019/10/18/website-launched
     </loc>
     <lastmod>2019-12-01T15:40:16+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>
+      https://rossthomson.com/blog/2020/04/02/improving-web-page-loading-speeds
+    </loc>
+    <lastmod>2020-04-01T15:40:16+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
