@@ -24,6 +24,8 @@ header a {
 
 .copy a {
   color: #81a5f8;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 .copy a:hover {
   color: #2161f2;
