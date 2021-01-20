@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "CLAN"
+date:   2021-01-19 17:45:20 +0100
+categories: website
+iconUrl: /assets/imgs/icons/clan-icon.svg 
+websiteUrl: https://www.clancancersupport.org/
+customClass: clan_icon
+---
+
+Custom Craft CMS<br>
+Frontend<br>
+Ecommerce (Donations)
