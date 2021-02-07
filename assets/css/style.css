@@ -307,7 +307,7 @@ form {
   border-radius: 4px;
   padding: 0.75rem;
   margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   width: 100%;
   max-width: 100%;
   line-height: 1;
@@ -319,11 +319,12 @@ textarea {
   border-radius: 4px;
   padding: 0.75rem;
   margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   width: 100%;
   max-width: 100%;
   line-height: 1;
   height: 120px;
+  font-family: "Open Sans", sans-serif;
 }
 
 [type=submit] {

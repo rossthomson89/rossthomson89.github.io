@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Vero Recruitment"
+date:   2019-10-17 15:45:20 +0100
+categories: website
+iconUrl: /assets/imgs/icons/vero-icon.svg 
+websiteUrl: https://verorecruitment.com/
+customClass: vero_icon
+---
+
+Custom Craft CMS<br>
+XML (ASP.NET) Feed<br>
+Responsive
