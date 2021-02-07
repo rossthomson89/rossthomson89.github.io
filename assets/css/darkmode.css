@@ -46,7 +46,7 @@ body.dark {
   background: #fff;
 }
 .dark .mobile_nav input:checked ~ nav {
-  background: #424242;
+  background: #232323;
 }
 .dark .brownandbrown_icon {
   content: url("/assets/imgs/icons/brownandbrown-icon-white.svg");
