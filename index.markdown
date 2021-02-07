@@ -10,7 +10,7 @@ blogTitle: Latest from the blog.
 blogIntro: Welcome to the blog feed! I'll add any latest thoughts, opinions, tutorials and any new projects I've been working on here. All views and opinions are my own. 
 ---
 
-I'm a Full Stack Web Developer from Aberdeen specialising in all things front end. I build websites for a living and have worked in the creative industry for over 9 years.
+I'm a Full Stack Web Developer from Aberdeen specialising in all things front end. I build websites for a living and have worked in the creative industry for over 10 years.
 
 I started my career building native and cross-platform mobile apps before transitioning over to Website Development. I spend most of my time these days building fully customised CMS's, online stores (e-commerce), landing pages as well as some other cool stuff.
 
