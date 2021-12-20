@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Global E&C"
+date:   2021-12-01 17:45:20 +0100
+categories: website
+iconUrl: /assets/imgs/icons/global-ec-icon.svg 
+websiteUrl: https://global-ec.com/
+customClass: global_icon
+---
+
+Custom Craft CMS<br>
+Frontend<br>
+Animations
