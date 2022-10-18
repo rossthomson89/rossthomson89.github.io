@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Ross Thomson | Digital Portfolio
+title: Ross Thomson | Website Developer in Aberdeen, Scotland
 permalink: /
 description: I'm a Full Stack Web Developer from Aberdeen specialising in all things front end. I build websites for a living and have worked in the creative industry for over 9 years.
 subtitle: Hi, I'm Ross!

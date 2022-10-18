@@ -30,4 +30,4 @@ Two benefits of this website build I feel I should mention is that because of it
 
 I'll put together a multi-part tutorial on how I implemented this site in the near future for any other web developers out there who want a flat file CMS website on the cheap - so watch this space. 
 
-Feel free to have a look around to find out a little bit more <a href="https://rossthomson.dev/about">about me</a> and take a look at some of my <a href="https://rossthomson.dev/work">latest projects</a>.
+Feel free to have a look around to find out a little bit more <a href="https://rossthomson.com/about">about me</a> and take a look at some of my <a href="https://rossthomson.com/work">latest projects</a>.
