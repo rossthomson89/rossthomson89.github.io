@@ -517,7 +517,7 @@ section.visible {
 }
 
 .mobile_nav_fix {
-  top: 58px;
+  top: 57px;
   transition: top 0.5s;
 }
 
@@ -605,6 +605,26 @@ pre {
   overflow-x: scroll;
   padding: 20px 0;
   margin-bottom: 30px;
+  margin-left: 0;
+}
+
+blockquote {
+  width: calc(100% - 43px);
+  background: #3b3b3b;
+  color: #fff;
+  overflow-x: scroll;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  border-left: 3px solid cornflowerblue;
+}
+
+.copy blockquote p {
+  font-size: 0.9rem;
+}
+
+.copy blockquote p:last-of-type {
+  margin-bottom: 0 !important;
 }
 
 ol {
@@ -625,6 +645,11 @@ input:checked + .slider:before {
   -webkit-transform: translateX(23px);
   -ms-transform: translateX(23px);
   transform: translateX(23px);
+}
+
+.no-scroll {
+  height: 100%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {

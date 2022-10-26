@@ -3,7 +3,7 @@ layout: post
 title:  Improving Your Web Page Loading Speeds 📈
 date:   2020-04-02 13:30:00 +0100
 permalink: /blog/2020/04/02/improving-web-page-loading-speeds
-description: Improving Your Web Page Loading Speeds - In this article I explain how to audit and improve your websites page loading times?
+description: Improving Your Web Page Loading Speeds - In this article I explain how to audit and improve your websites page loading times.
 categories: blog
 iconUrl: /assets/imgs/logos/logo-green.svg 
 ---

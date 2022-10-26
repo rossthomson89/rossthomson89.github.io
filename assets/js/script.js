@@ -58,6 +58,11 @@ $(function() {
     }
 
     //Toggle button for light/dark mode
+    $(".burger").click(function(){
+        $('body').toggleClass('no-scroll');
+    });
+
+    //toggle no-scroll class for mobile hamburger nav
     $(".mode_button").change(function() {
         if(this.checked) {
             if (localStorage.toggled != 'dark') {
