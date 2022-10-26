@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="work">
+    <h2>Latest from the Blog.</h2>
+
+    {% for post in site.posts %}
+        {% if post.categories contains "blog" %}
+            <a href="{{ post.url }}" class="blog_card">
+                <h5>{{ post.title }} <br><span class="blog_date">{{ post.date | date_to_string }}</span></h5>
+                <div class="read-more">Read More</div>
+            </a>
+        {% endif %}
+    {% endfor %}
+
+</div>
