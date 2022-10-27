@@ -94,16 +94,17 @@ This can play havoc with any analytics you have installed so you'll want to choo
 
 For WWW to non WWW redirect:
 ```html
-    RewriteCond %{SERVER_PORT} ^443$
-    RewriteCond %{HTTP_HOST} ^www.websitedomain.com [NC]
-    RewriteRule ^(.*)$ http://websitedomain.com/$1 [R=301,L]
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 ```
 
 Force WWW always:
 ```html
-    RewriteCond %{SERVER_PORT} ^443$
-    RewriteCond %{HTTP_HOST} ^websitedomain.com$
-    RewriteRule (.*) http://www.websitedomain.com/$1 [R=301,L]
+    RewriteCond %{HTTP_HOST} !=""
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteCond %{HTTPS}s ^on(s)|
+    RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 ```
 
 <h2>Mobile Scaling/Responsive Design</h2>
