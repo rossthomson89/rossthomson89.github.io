@@ -6,7 +6,7 @@ layout: default
 
     {% for post in site.posts %}
         {% if post.categories contains "blog" %}
-            <a href="{{ post.url }}" class="blog_card">
+            <a href="{{ post.url }}" class="blog_card" data-aos="fade-up" data-aos-delay="300">
                 <h5>{{ post.title }} <br><span class="blog_date">{{ post.date | date_to_string }}</span></h5>
                 <div class="read-more">Read More</div>
             </a>

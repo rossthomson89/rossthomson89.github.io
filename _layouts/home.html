@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="intro flex">
-    <div class="copy w-70">
+    <div class="copy w-70" data-aos="fade-right">
         <h2 class="font-lg">{{ page.subtitle }}</h2>
         <div>{{ content }}</div>
     </div>
-    <div class="photo w-30">
+    <div class="photo w-30" data-aos="fade-left">
         <img src="{{ page.photoUrl }}" alt="{{ page.photoAlt }}">
     </div>
 </div>
@@ -19,14 +19,14 @@ layout: default
     <div>
         {% for post in site.posts %}
             {% if post.categories contains "blog" %}
-                <a href="{{ post.url }}" class="blog_card">
+                <a href="{{ post.url }}" class="blog_card" data-aos="fade-up" data-aos-delay="300">
                     <h5>{{ post.title }} <br><span class="blog_date">{{ post.date | date_to_string }}</span></h5>
                     <div class="read-more">Read More</div>
                 </a>
             {% endif %}
 
             {% if post.categories contains "website" %}
-                <a href="{{ post.websiteUrl }}" class="blog_card work_card" target="_blank" rel="noopener">
+                <a href="{{ post.websiteUrl }}" class="blog_card work_card" target="_blank" rel="noopener" data-aos="fade-up" data-aos-delay="300">
                     <div>
                         <img src="{{ post.iconUrl }}" alt="{{ post.title }}" {% if post.customClass %}class="{{ post.customClass }}"{% endif %}>
                         <h5>{{ post.title }}</h5><span class="click-to-view">(click to view)</span>
