@@ -11,11 +11,12 @@ body.dark {
   color: #fff;
 }
 .dark .blog_card {
-  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.2);
+  box-shadow: #fff 0px 0px 0px 2px inset, rgb(32, 32, 32) 10px -10px 0px -3px, rgb(255, 255, 255) 10px -10px, rgb(32, 32, 32) 20px -20px 0px -3px;
   color: #fff;
 }
 .dark .blog_card:hover {
   background: #505050;
+  box-shadow: #fff 0px 0px 0px 2px inset;
   color: #fff;
 }
 .dark .blog_card img {
@@ -39,6 +40,10 @@ body.dark {
   background-size: cover;
 }
 .dark .git_hub_pages .github_icon {
+  background: url("/assets/imgs/logos/github-icon-white.svg");
+  background-size: cover;
+}
+.dark .github {
   background: url("/assets/imgs/logos/github-icon-white.svg");
   background-size: cover;
 }
