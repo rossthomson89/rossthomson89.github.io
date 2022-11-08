@@ -20,7 +20,7 @@ layout: default
         {% for post in site.posts %}
             {% if post.categories contains "blog" %}
                 <a href="{{ post.url }}" class="blog_card" data-aos="fade-up" data-aos-delay="300">
-                    <h5>{{ post.title }} <br><span class="blog_date">{{ post.date | date_to_string }}</span></h5>
+                    <h3>{{ post.title }} <br><span class="blog_date">{{ post.date | date_to_string }}</span></h3>
                     <div class="read-more">Read More</div>
                 </a>
             {% endif %}
@@ -29,7 +29,7 @@ layout: default
                 <a href="{{ post.websiteUrl }}" class="blog_card work_card" target="_blank" rel="noopener" data-aos="fade-up" data-aos-delay="300">
                     <div>
                         <img src="{{ post.iconUrl }}" alt="{{ post.title }}" {% if post.customClass %}class="{{ post.customClass }}"{% endif %}>
-                        <h5>{{ post.title }}</h5><span class="click-to-view">(click to view)</span>
+                        <h3>{{ post.title }}</h3><span class="click-to-view">(click to view)</span>
                     </div>
                     <div>
                         <div class="info_list">
