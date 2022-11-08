@@ -1,3 +1,12 @@
+// // Import custom js
+// import './components/nav';
+// import './components/imageSlider';
+//
+// // Import bootstrap js
+// import '../../node_modules/bootstrap/dist/js/bootstrap';
+
+import $ from 'jquery';
+
 $(function() {
 
     //Fade in on scroll
@@ -15,7 +24,7 @@ $(function() {
                 $(tag).removeClass("visible");
             }
         }
-    }); 
+    });
 
     //Smooth page scroll for nav links
     $('a[href*="#"]').on('click', function(e) {
