@@ -3,7 +3,7 @@
     <div class="nav_container">
         <a href="/">
             <div class="logo"></div>
-            <h1>Ross Thomson <span class="hide">| {% if current[1] == null %}Home{% elsif current[1]=="blog" %}{{ page.title }}{% else %}{{ current[1]|capitalize }}{% endif %}</span></h1>
+            <h1>Ross Thomson <span class="hide">- {% if current[1] == null %}Website Developer in Aberdeen, Scotland{% elsif current[1]=="blog" %}{{ page.title }}{% else %}{{ current[1]|capitalize }}{% endif %}</span></h1>
         </a>
         <div class="mobile_nav">
             <input id="burger" type="checkbox"/>
