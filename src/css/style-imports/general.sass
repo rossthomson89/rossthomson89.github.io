@@ -707,3 +707,20 @@ input
 @media screen and (max-width: 330px)
   .logo
     margin-right: 2px
+
+.logo-container
+  margin: 5rem 0
+.logos
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  align-items: center
+  .logo-wrapper
+    flex: 1 0 15%
+    margin: 2rem
+    @media screen and (max-width: 576px)
+      flex: 1 0 25%
+    img
+      width: 100%
+      object-fit: contain
+      max-height: 120px

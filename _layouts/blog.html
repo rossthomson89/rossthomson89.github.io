@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="work">
-    <h2>Latest from the Blog.</h2>
+    <div class="margin-b">
+        <h2>Latest from the Blog.</h2>
+        <p>Stay up to date with all my latest findings, tutorials and news right here in my very own blog.</p>
+        <br>
+    </div>
 
     {% for post in site.posts %}
         {% if post.categories contains "blog" %}

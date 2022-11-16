@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="work">
-    <h2>Latest work.</h2>
+    <div class="margin-b">
+        <h2>Latest work.</h2>
+        <p>Take a look at some of the latest website projects I've been working on. I work on all manner of full stack projects providing both front and back end implementation - from start to finish 🚀:</p>
+        <br>
+    </div>
 
     {% for post in site.posts %}
         {% if post.categories contains "website" %}
@@ -19,5 +23,37 @@ layout: default
             </a>
         {% endif %}
     {% endfor %}
+
+    <div class="logo-container">
+        <h2>Past Clients.</h2>
+
+        <div class="logos margin-b">
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/fifa-logo.svg" alt="fifa logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/maersk-logo-mask.svg" alt="maersk logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/robert-gordon-university-logo-mask.svg" alt="robert gordon university logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/university-of-aberdeen-mask.svg" alt="university of aberdeen logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/opito-logo.svg" alt="opito logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/pga-european-tour.svg" alt="pga european tour logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/aberdeen-city-council.svg" alt="aberdeen city council logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="/assets/imgs/logos/edinburgh-zoo-logo.svg" alt="edinburgh zoo logo">
+            </div>
+        </div>
+    </div>
+
 
 </div>
