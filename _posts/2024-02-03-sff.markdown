@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Scottish Fishermans Federation"
+date:   2024-02-03 17:45:20 +0100
+categories: website
+iconUrl: /assets/imgs/logos/sff-logo.svg 
+websiteUrl: https://www.sff.co.uk/
+customClass: sff_icon
+---
+
+Custom Craft CMS<br>
+Frontend<br>
